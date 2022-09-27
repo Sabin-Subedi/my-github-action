@@ -1,0 +1,22 @@
+{
+  "name": "thank_you_action",
+  "version": "1.0.0",
+  "description": "Say thank you to new pull requests",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sabin-Subedi/my-github-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sabin-Subedi/my-github-action/issues"
+  },
+  "homepage": "https://github.com/Sabin-Subedi/my-github-action#readme",
+  "devDependencies": {
+    "@vercel/ncc": "^0.34.0"
+  }
+}
