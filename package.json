@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Sabin-Subedi/my-github-action#readme",
   "devDependencies": {
+    "@actions/core": "^1.9.1",
+    "@actions/github": "^5.1.0",
     "@vercel/ncc": "^0.34.0"
   }
 }
